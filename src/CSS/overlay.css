@@ -1,0 +1,103 @@
+.pop {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #171717;
+    /* background-color: #1a1a1a; */
+    /* background-color: #111827; */
+}
+
+.slide_top {
+	-webkit-animation: slide_top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide_top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide_top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide_top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100vh);
+    }
+  }
+  
+
+.pop_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pop_up h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff , 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #800080,
+    0 0 30px #800080;
+    font-family: "himagsikan-italic";
+    src: url('/fonts/himagsikan-italic') format(otf);
+}
+
+.pop_up .my {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.pop_up .up {
+    width: 100px;
+}
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media (min-width:300px) and (max-width: 470px) {
+    .pop_up .my {
+        height: 50vh;
+    }
+}

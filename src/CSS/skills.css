@@ -1,0 +1,27 @@
+.skills_tab {
+    background: rgb(218, 145, 177);
+    background: linear-gradient(9deg, rgba(218, 145, 177, 1) 29%, rgba(141, 115, 237, 1) 59%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.skills_tab :hover, .skills_tab :focus{
+    color: #3333ff;
+}
+
+#frontend{
+    display: block;
+}
+
+#Backend{
+    display: none;
+}
+
+#Tools{
+    display: none;
+}
+
