@@ -13,7 +13,7 @@ export default function Hero() {
                 <p className="sm:text-lg md:text-xs lg:text-sm xl:text-lg text-sm text-gray-700 py-5 dark:text-gray-300 lg:w-11/12">
                 As a developer, I am passionate about learning all there is to know about creating innovative and engaging web applications.With a strong foundation in HTML, CSS, and JavaScript, I have been able to build several small-scale web applications that showcase my skills in these areas. I am constantly seeking out new challenges and opportunities to expand my knowledge, whether through online courses, tutorials, or personal projects.<br className="pt-1"/>I understand that web development is a constantly evolving field, and I am committed to staying on top of the latest trends and technologies to ensure that my work is always cutting-edge and relevant. I am always eager to work with others to bring their ideas to life.Overall, my passion for web development and my eagerness to learn and grow make me a strong candidate for any team or project. I am excited to continue honing my skills and pushing the boundaries of what is possible in the world of web development..</p>
               <div className="flex justify-center py-3">
-                <a href="https://xrakshecom.netlify.app/">
+                <a href="https://drive.google.com/file/d/1QgTjsgWGrnLg94f5yVvBFaTDvqpaKj7R/view">
                 <button className="inline-flex hover:shadow-lime-600/20 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:shadow-lg rounded text-lg"> Downlode CV <span>--<i className="fa-solid fa-shuttle-space ml-2"></i></span></button>
                 </a>
               </div>
