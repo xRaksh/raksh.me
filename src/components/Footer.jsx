@@ -1,7 +1,7 @@
 export default (Footer) => {
     return (
         <footer className=" bg-blueGray-200 ">
-            <div className="container mx-auto px-4 dark:bg-gray-900 pt-8 pb-6">
+            <div className="container mx-auto px-4 bg-black pt-8 pb-6">
                 <div className="flex flex-wrap text-left lg:text-left">
                     <div className="w-full lg:w-6/12 px-4">
                         <h4 className="text-3xl fonat-semibold text-white front">Let's keep in touch!</h4>
