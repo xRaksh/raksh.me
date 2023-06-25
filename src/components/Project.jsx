@@ -1,7 +1,7 @@
 export default (Project) => {
     return (
         <div className="bg-gray-50">
-            <div className="container mx-auto px-6 py-14 md:px-12 xl:px-32 dark:bg-gray-900">
+            <div className="container mx-auto px-6 py-14 md:px-12 xl:px-32 bg-black	">
                 <div className="mb-16 text-center">
                     <h2 className="sm:text-4xl text-3xl front font-black title-font dark:text-white text-center pb-3" id="project" >Project</h2>
                     <p className="sm:text-lg text-gray-700 dark:text-gray-300 lg:w-11/12">Tailus prides itself not only on award-winning technology, but also on the talent of its people of some of the brightest minds and most experienced executives in business.</p>
