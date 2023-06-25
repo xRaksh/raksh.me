@@ -12,13 +12,13 @@ export default function About() {
               <a aria-label="add to slack" href="#contact" className="p-4 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-full duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-600/20 dark:hover:border-cyan-300/30">
                 <div className="flex justify-center space-x-4">
                   <img className="w-6 h-6" src="https://static.wixstatic.com/media/191815_c72cb6af1c804794acabc485e36b7790~mv2.gif" alt="slack logo" loading="lazy" width={128} height={128} />
-                  <span className=" font-medium md:block dark:text-white">Contact</span>
+                  <span className=" font-medium md:block text-white">Contact</span>
                 </div>
               </a>
               <a aria-label="add to chat" href="https://www.linkedin.com/in/xraksh/" className="p-4 border border-gray-200 dark:bg-gray-800  dark:border-gray-700 rounded-full duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-lime-600/20 dark:hover:border-green-300/30">
                 <div className="flex justify-center space-x-4">
                   <img className="w-6 h-6" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="chat logo" loading="lazy" width={128} height={128} />
-                  <span className=" font-medium md:block dark:text-white">Linkedin</span>
+                  <span className=" font-medium md:block text-white">Linkedin</span>
                 </div>
               </a>
             </div>
