@@ -2,7 +2,7 @@
 export default function About() {
   return (
     <div className="bg-white" id="hero">
-      <div className="container m-auto py-20 px-6 sm:py-20 md:px-12 lg:px-6 bg-black">
+      <div className="container m-auto py-20 px-6 sm:py-20 md:px-12 lg:px-6 bg-gray-900">
         <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">Turning Vision Into Reality With <br className="lg:block hidden" /> <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">Code And Design</span>.</h1>
         <div className="lg:flex">
           <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12">
