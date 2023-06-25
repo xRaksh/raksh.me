@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <>
       <section className="text-gray-600 body-font" id="about">
-        <div className="container mx-auto py-10 items-center dark:bg-gray-900">
+        <div className="container mx-auto py-10 items-center bg-black">
 
           <div className="flex flex-col w-full pb-5 md:pb-10">
             <h1 className="sm:text-4xl text-3xl front font-black title-font dark:text-white text-center">About</h1>
